@@ -1,0 +1,36 @@
+.navigator {
+    -fx-background-color: rgb(228, 221, 221);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0; 
+    -fx-font-family:  "Helvetica";
+    -fx-text-fill:  black;
+    -fx-font-size:  14px;
+}
+
+.navigator:hover {
+    -fx-background-color: rgb(163, 160, 160); 
+    /* color: white; */
+}
+
+.combo-box-base {
+    -fx-background-color: white, white, limegreen, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+}
+
+
+.guessButton {
+  -fx-background-color: rgb(63, 132, 71);
+  -fx-background-radius: 30;
+  -fx-background-insets: 0,1,2,3,0;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 14px;
+  -fx-padding: 10 20 10 20;
+}
+
+.guessButton:hover {
+  -fx-background-color: rgb(133, 179, 103); 
+  -fx-text-fill: black;
+}

@@ -1,0 +1,33 @@
+.navigator {
+    -fx-background-color: rgb(228, 221, 221);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0; 
+    -fx-font-family:  "Helvetica";
+    -fx-text-fill:  black;
+    -fx-font-size:  14px;
+}
+
+.navigator:hover {
+    -fx-background-color: rgb(163, 160, 160); 
+    /* color: white; */
+}
+
+.guessButton {
+    -fx-background-color: rgb(89, 89, 170);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+}
+
+.guessButton:hover {
+    -fx-background-color: rgb(40, 155, 243); 
+    -fx-text-fill: black;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #0093ff;
+    -fx-text-fill: white;
+}
